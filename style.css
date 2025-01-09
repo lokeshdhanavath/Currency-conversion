@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-style: arial;
+}
+body {
+    background-color:  #FA0F75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+}
+.container{
+    background-color:  #fff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    min-width: 40vh;
+    align-items: center;
+}
+form input{
+    height : 1.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.amt{
+    margin-top: 1.75rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+form input,select,button{
+    width : 100%;
+    border-radius : 1rem;
+    border: 1px solid lightgray;
+    background-color: white;
+    outline: none;
+}
+form img {
+    max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 6rem;
+    border-radius: 1rem;
+   
+    
+}
+.select-container select{
+    margin-left: 0.75rem;
+    background-color: #fdfbfb;
+    font-size: 1rem;
+    width : auto;
+}
+#one{
+    position: relative;
+    right:0.50rem
+}
+
+form {
+    margin : 2rem 0 2rem 0;
+    padding: 1.2rem;
+}
+form i {
+    font-size: 1.5rem;
+    margin-top: 1.4rem;
+}
+.msg{
+    display: flex;
+    margin-top:6rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border : 1px solid lightgray;
+    border-radius: 0.5rem;
+    height: 1.75rem;
+    font-size: 1rem;
+}
+form button {
+    font-size: 1.9 rem;
+    font-style: bold;
+    margin-top : 3rem;
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s
+}
+
+form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+  }
+
+/* .butt :hover{
+    opacity: 0.7; */
+
+
+@media (max-width:380px){
+
+    .select-container select {
+        width: 58px;
+        font-size: 0.9rem;
+    }
+   
+    .form i {
+        font-size: 0.65rem;
+    }
+    form {
+        margin : 1rem 0 1rem 0;
+        padding: 0.5rem;
+    }
+    .container{
+        padding: 1rem;
+    }
+    #one{
+        position: relative;
+        right:0.1rem;
+    }
+
+}
